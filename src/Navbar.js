@@ -5,7 +5,7 @@ export default function Navbar(){
     <header className="header">
 
         <div className="left-section">
-            <img className="code-logo" src="./logo192.png" alt="Code Platform Logo"/>
+            <img className="code-logo" src="./images/project-logo1.jpg" alt="Code Platform Logo"/>
         </div>
 
         <div className="middle-section">

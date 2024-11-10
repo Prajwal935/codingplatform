@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './Navbar.css';
-import './SelectionPage';
+import './styles/Navbar.css';
+import './styles/SelectionPage.css';
 import App from './App';
 
 
