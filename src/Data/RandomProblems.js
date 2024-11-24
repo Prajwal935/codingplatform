@@ -1,17 +1,30 @@
-import React from "react"
+import React from "react";
 
-export default function RandomProblems(props){
+export default function RandomProblems(props) {
     return (
-        <div className="selectionPage-problemList-header">
+        <div className="selectionPage-problemList">
             <div className="selectionPage-problemList-left-section">
-                {props.difficulty} 
+                {props.difficulty}
             </div>
             <div className="selectionPage-problemList-middle-section">
-                {props.name}
+                <a
+                    href={`/problems/${props.id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="problem-link"
+                >
+                    {props.name}
+                </a>
             </div>
             <div className="selectionPage-problemList-right-section">
-                <img className="selectionPage-problemList-symbol" src="./images/arrow-symbol.png"/>
+                <a
+                    href={`/problems/${props.id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img className="selectionPage-problemList-symbol" src="/images/arrow-symbol.png" alt="Arrow" />
+                </a>
             </div>
         </div>
-    )
+    );
 }

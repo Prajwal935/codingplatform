@@ -50,7 +50,11 @@ body{
     list-style: none;
 }
 
+
 .nav-items > li{
     padding:10px;
     cursor: pointer;
+}
+.nav-items > li:hover{
+    color:blue;
 }
