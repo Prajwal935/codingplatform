@@ -1,0 +1,52 @@
+.editor-container {
+    padding: 80px;
+    font-family: Arial, sans-serif;
+    padding-top:100px;
+}
+
+.problem-details {
+    margin-bottom: 20px;
+}
+
+.problem-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.problem-details p,
+.problem-details pre {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.code-editor-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.code-editor-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
