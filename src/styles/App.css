@@ -1,0 +1,41 @@
+/* Default Light Mode */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+.dark-mode .header {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .selectionPage-problemList {
+    background-color: #2b2b2b;
+}
+
+.dark-mode .code-editor-container {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .nav-items li {
+    color: #fff;
+}
+
+.dark-mode .submit-btn {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .dark-mode-toggle {
+    filter: invert(1);
+}

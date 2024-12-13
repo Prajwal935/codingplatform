@@ -16,6 +16,7 @@ body{
     top:0;
     left:0;
     right:0;
+    z-index: 100;
 }
 
 .left-section,.right-section{
@@ -32,11 +33,6 @@ body{
 .middle-section{
     display: flex;
     align-items: center;
-}
-
-.dark-mode{
-    height:30px;
-    cursor:pointer;
 }
 
 .nav-profile{
