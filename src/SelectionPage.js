@@ -11,7 +11,7 @@ export default function SelectionPage() {
         let url =
             topic === "Random Problems" || topic === "random"
                 ? "http://localhost:8080/problems" 
-                : `http://localhost:8080/problems?sortBy=${topic.toLowerCase()}`;
+                : `http://localhost:8080/problems?sortBy=${topic}`;
 
         fetch(url)
             .then((response) => response.json())

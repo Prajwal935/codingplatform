@@ -35,13 +35,13 @@ export default function CodeEditorPage() {
         setLanguage(e.target.value);
         switch (e.target.value) {
             case "cpp":
-                setCode("#include <iostream>\nusing namespace std;\nint main() {\n    return 0;\n}");
+                setCode("#include <iostream>\nusing namespace std;\nint main() {\n\t//Write your C++ code here\n    return 0;\n}");
                 break;
             case "java":
-                setCode("public class Main {\npublic static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}");
+                setCode("public class Main {\n\tpublic static void main(String[] args) {\n        //Write your java code here;\n    }\n}");
                 break;
             case "c":
-                setCode("#include <stdio.h>\nint main() {\n    return 0;\n}");
+                setCode("#include <stdio.h>\nint main() {\n\t//Write your C code here \n   return 0;\n}");
                 break;
             case "javascript":
                 setCode("// Write your JavaScript code here\n");
@@ -124,9 +124,11 @@ export default function CodeEditorPage() {
         <h3>Examples:</h3>
         <ul>
             {problem.message.example.map((example, index) => (
-                <div key={index} style={{ marginBottom: "10px", whiteSpace: "pre-line" }}>
-                    {example}
-                </div>
+                <li>
+                    <div key={index} style={{ marginBottom: "10px", whiteSpace: "pre-line" }}>
+                        {example}
+                    </div>
+                </li>
             ))}
         </ul>
 
